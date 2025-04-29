@@ -1,0 +1,7 @@
+<svg width="180" height="45" viewBox="0 0 180 45" xmlns="http://www.w3.org/2000/svg" id="logo">
+  <rect width="180" height="45" fill="#ffffff" />
+  <path d="M20 10 C15 20, 25 25, 20 35 C10 25, 20 20, 20 10" fill="#00bcd4"/>
+  <text x="50" y="30" font-family="Arial, sans-serif" font-size="22" fill="#2c3e50" font-weight="bold">
+    LimPeZas
+  </text>
+</svg>
