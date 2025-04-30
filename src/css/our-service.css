@@ -1,0 +1,87 @@
+.our-service {
+  margin-bottom: 100px;
+}
+
+.our-service-text {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--primery-color-2);
+  margin-bottom: 16px;
+}
+
+.our-service-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark-gray);
+  margin-bottom: 85px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 30px 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: all 0.3s ease;
+}
+
+.card .icon {
+  background: #f0f0f0;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.card h3 {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primery-color-2);
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 14px;
+
+  line-height: 1.42857;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.card.active {
+  background: var(--primery-color-2);
+  color: #fff;
+}
+
+.card.active h3,
+.card.active p {
+  color: #fff;
+}
+
+.card.active .icon {
+  background: #fff;
+}
+
+

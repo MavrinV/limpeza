@@ -1,0 +1,48 @@
+.about-us {
+  margin-top: 104px;
+  margin-bottom: 86px;
+}
+
+.about-us-container {
+  display: flex;
+}
+
+.about-us-p {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: var(--primery-color-2);
+  margin-bottom: 12px;
+}
+
+.about-us-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--dark-gray);
+  margin-bottom: 16px;
+}
+
+.winning-text {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.about-us-btn {
+  margin-top: 30px;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 35px;
+  width: 170px;
+  height: 49px;
+  background: var(--primery-color-2);
+  color: var(--pure-white);
+}
+
+.about-us-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
