@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/limpeza/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/limpeza/assets/index-SGJjHRTE.css">
+    <link rel="stylesheet" crossorigin href="/limpeza/assets/index-DqdCEp33.css">
   </head>
   <body>
     <header class="header">
@@ -25,11 +25,10 @@
     <nav class="navigation">
       <ul class="nav-list">
         <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">SERVICES</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+        <li class="nav-item"><a href="#about-us" class="nav-link">ABOUT US</a></li>
+        <li class="nav-item"><a href="#our-service" class="nav-link">SERVICES</a></li>
+        <li class="nav-item"><a href="#blog" class="nav-link">BLOG</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
       </ul>
     </nav>
     <button type="button" class="header-btn">
@@ -38,13 +37,18 @@
       </svg>
       Book Schedule
     </button>
+    <button type="button" class="burger-btn">
+      <svg class="icon-burger" width="32" height="32">
+        <use href="/limpeza/assets/sprite-DiMXM10w.svg#icon-menu"></use>
+      </svg>
+    </button>
   </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="hero-section">
+      <section class="hero-section" id="hero">
   <div class="container hero-container">
     <div class="hero-text">
       <p class="small-title">HIGHLY PROFESSIONAL CLEANING</p>
@@ -60,7 +64,7 @@
       <p class="partners-text">TRUSTED PARTNERS</p>
       <h2 class="partners-title">BRANDS WHO TRUST US</h2>
     </div>
-    <img src="../img/hero-img.png" alt="hero" class="hero-img" />
+    <img src="../img/hero-img@2x.png" alt="hero" class="hero-img" width="516"/>
   </div>
 
 </section>
@@ -96,7 +100,7 @@
     </div>
 </div>
 
-      <section class="about-us">
+      <section class="about-us" id="about-us">
   <div class="container about-us-container">
     <div class="about-us-info">
       <p class="about-us-p">ABOUT US</p>
@@ -139,7 +143,7 @@
   </div>
 </section>
 
-      <section class="our-service">
+      <section class="our-service" id="our-service">
   <div class="container">
     <p class="our-service-text">OUR SERVICES</p>
     <h2 class="our-service-title">WHAT WE ARE OFFERING</h2>
@@ -193,6 +197,55 @@
         </p>
       </div>
     </div>
+  </div>
+</section>
+
+      <section class="our-team-section" id="our-team">
+  <div class="container">
+    <p class="our-team-text">OUR TEAM</p>
+    <h2 class="our-team-title">OUR EXPERT TEAM MEMBERS</h2>
+    <ul class="out-team-list">
+      <li class="our-team-item">
+        <img
+          src="../img/our-team/photo-1@2x.png"
+          alt="photo"
+          class="item-img"
+          width="278"
+        />
+        <h3 class="img-title">Devon Lane</h3>
+        <p class="img-text">Window Cleaner</p>
+      </li>
+      <li class="our-team-item">
+        <img
+          src="../img/our-team/photo-2@2x.png"
+          alt="photo"
+          class="item-img"
+          width="278"
+        />
+        <h3 class="img-title">Cody Fisher</h3>
+        <p class="img-text">House Cleaner</p>
+      </li>
+      <li class="our-team-item">
+        <img
+          src="../img/our-team/photo-3@2x.png"
+          alt="photo"
+          class="item-img"
+          width="278"
+        />
+        <h3 class="img-title">Ralph Edwards</h3>
+        <p class="img-text">Commercial Cleaner</p>
+      </li>
+      <li class="our-team-item">
+        <img
+          src="../img/our-team/photo-4@2x.png"
+          alt="photo"
+          class="item-img"
+          width="278"
+        />
+        <h3 class="img-title">Bessie Cooper</h3>
+        <p class="img-text">Floor Cleaner</p>
+      </li>
+    </ul>
   </div>
 </section>
 
